@@ -8,13 +8,17 @@ body {
 	color: #616161;
 }
 
+.center {
+	text-align: center;
+}
+
 .nav-link {
 	color: #616161;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #7995b4;
+	color: #3191fc;
 }
 
 .nav-item {
@@ -87,12 +91,12 @@ ul {
 
 .left-section {
 	margin-top: 25px;
-	width: 230px;
+	width: 300px;
 	float: left;
 }
 
 #photo {
-	width: 200px;
+	width: 250px;
 	height: auto;
 	border-radius: 5%;
 }
