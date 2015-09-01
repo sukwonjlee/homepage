@@ -1,10 +1,10 @@
 /*MAIN*/
 
 body { 
-	font-size: 1.05em;
-	line-height: 1.40em;
+	/*font-size: 1.0em;*/
+	line-height: 1.5em;
 	font-family: 'Roboto', sans-serif;
-	background: #f8f6f1;
+	background: #fcfcfa;
 	color: #616161;
 }
 
@@ -32,7 +32,8 @@ img {
 }
 
 header {
-	background: #f8f6f1;
+	font-size: 1.2em;
+	background: #fcfcfa;
 	width: 100%;
 	height: 180px;
 	position: fixed;
@@ -83,6 +84,7 @@ ul {
 }
 
 #wrapper {
+	font-size: 1.0em;
 	margin: 180px auto 70px;
 	max-width: 900px;
 	position: relative;
@@ -91,14 +93,38 @@ ul {
 
 .left-section {
 	margin-top: 25px;
-	width: 300px;
+	width: 27%;
 	float: left;
 }
 
+.right-section {
+	width: 73%;
+	float: right;
+}
+
 #photo {
-	width: 250px;
+	width: 200px;
 	height: auto;
 	border-radius: 5%;
+}
+
+.p-row {
+	width: 100%;
+	display: table;
+}
+
+.col-1 {
+	margin-top: 25px;
+	margin-right: 1em;
+	width: 48%;
+	float: left;
+}
+
+.col-2 {
+	margin-top: 25px;
+	margin-left: 1em;
+	width: 48%;
+	float: right;
 }
 
 h3 {
@@ -142,6 +168,20 @@ h3 {
 	height: auto;
 	margin-top: -5px;
 	display: block;
+}
+
+.p-info {
+	font-size: 0.8em;
+	line-height: 1.2em;
+}
+
+#p-icon {
+	margin-right: 0.5em;
+	margin-left: auto;
+	width: auto;
+	height: 0.9em;
+	opacity: 0.7;
+	/*display: block;*/
 }
 
 
